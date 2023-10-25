@@ -28,6 +28,8 @@ class Ui_BMIFenster(object):
         self.buttonCalcBmi.setGeometry(QtCore.QRect(280, 40, 91, 24))
         self.buttonCalcBmi.setObjectName("buttonCalcBmi")
         self.buttonCalcBmi.clicked.connect(self.btn_click)
+        self.buttonCalcBmi.setAutoDefault(True)
+        self.buttonCalcBmi.setDefault(True)
         self.labelBild = QtWidgets.QLabel(parent=self.centralwidget)
         self.labelBild.setGeometry(QtCore.QRect(10, 160, 661, 531))
         self.labelBild.setObjectName("labelBild")
