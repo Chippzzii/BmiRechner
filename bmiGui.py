@@ -1,5 +1,4 @@
-from PyQt6 import QtCore, QtGui, QtWidgets
-
+from PyQt6 import QtCore, QtWidgets
 
 class Ui_BMIFenster(object):
     def setupUi(self, BMIFenster):

@@ -1,8 +1,8 @@
-from bmiGui import Ui_BMIFenster
-from PyQt6 import QtWidgets, QtGui, QtCore
-
 import sys
 
+from PyQt6 import QtWidgets, QtGui
+
+from bmiGui import Ui_BMIFenster
 
 class bmiAnwendung(QtWidgets.QMainWindow, Ui_BMIFenster):
     def __init__(self, parent=None):
@@ -21,7 +21,6 @@ class bmiAnwendung(QtWidgets.QMainWindow, Ui_BMIFenster):
         bmi = gewicht / (groesse * groesse)
         bmi = round(bmi, 2)
         return bmi
-
 
     def updateBild(self, bmi):
         if bmi < 18.5:
