@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="bmi">
+    <file>bmiRessourcen/Lama.png</file>
+    <file>bmiRessourcen/test.png</file>
+    <file>bmiRessourcen/Grenbone.png</file>
+  </qresource>
+</RCC>
