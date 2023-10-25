@@ -26,12 +26,11 @@ class bmiAnwendung(QtWidgets.QMainWindow, Ui_BMIFenster):
         if bmi < 18.5:
             self.labelBild.setPixmap(QtGui.QPixmap("bmiRessourcen/Grenbone.png"))
         elif 18.5 <= bmi < 24.9:
-            self.labelBild.setPixmap(QtGui.QPixmap("bmiRessourcen/Grenbone.png"))
+            self.labelBild.setPixmap(QtGui.QPixmap("bmiRessourcen/komischesTier.png"))
         elif 25 <= bmi < 29.9:
             self.labelBild.setPixmap(QtGui.QPixmap("bmiRessourcen/Lama.png"))
         else:
             self.labelBild.setPixmap(QtGui.QPixmap("bmiRessourcen/test.png"))
-
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)

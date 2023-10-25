@@ -3,7 +3,7 @@ from PyQt6 import QtCore, QtWidgets
 class Ui_BMIFenster(object):
     def setupUi(self, BMIFenster):
         BMIFenster.setObjectName("BMIFenster")
-        BMIFenster.resize(682, 736)
+        BMIFenster.setFixedSize(682, 736)
         self.centralwidget = QtWidgets.QWidget(parent=BMIFenster)
         self.centralwidget.setObjectName("centralwidget")
         self.labelGewicht = QtWidgets.QLabel(parent=self.centralwidget)
